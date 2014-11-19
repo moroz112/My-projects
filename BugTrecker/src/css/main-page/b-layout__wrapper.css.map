@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;EAChB,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,OAAO",
+"sources": ["../../sass/main-page/b-layout__wrapper.sass"],
+"names": [],
+"file": "b-layout__wrapper.css"
+}

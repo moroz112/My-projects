@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="src/dist/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/dist/all.css">
+    <script src="src/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="src/script.js"></script>
+</head>
+<body>
+    <!--<form class="formm" name="test" action="index.php" method="post">-->
+        <!--<input type="text" name="TaskName" value="">-->
+        <!--<textarea name="TaskDescription"></textarea>-->
+        <!--<input type="submit">-->
+    <!--</form>-->
+    <!--<a href="#" class="aaa">delete</a>-->
+    <div class="b-layout">
+        <div class="b-layout__wrapper">
+            <div class="b-layout__main-menu">
+                <ul class="b-layout__main-menu_list">
+                    <li class="b-layout__main-menu-item b-layout__main-menu-item_show-user"><span>SHOW USERS</span></li>
+                    <li class="b-layout__main-menu-item b-layout__main-menu-item_show-task"><span>SHOW TASKS</span></li>
+                    <li class="b-layout__main-menu-item b-layout__main-menu-item_create"><span>CREATE TASK</span>
+                        <form class="b-form__create-task" method="post" action="index.php">
+                            <span>Enter task name</span>
+                            <input name="taskname" class="b-form__input b-form__input-taskname">
+                            <span>Enter description for task</span>
+                            <textarea name="description" class="b-form__input b-form__input-description"></textarea>
+                            <input class="b-form__create-task_submit" type="submit">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-layout__task_or_user-list">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

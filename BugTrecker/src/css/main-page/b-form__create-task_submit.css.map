@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,2BAA2B;EACzB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,YAAY",
+"sources": ["../../sass/main-page/b-form__create-task_submit.sass"],
+"names": [],
+"file": "b-form__create-task_submit.css"
+}

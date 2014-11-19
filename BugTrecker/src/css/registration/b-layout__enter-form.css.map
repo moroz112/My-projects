@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB;EACnB,KAAK,EAAE,IAAI",
+"sources": ["../../sass/registration/b-layout__enter-form.sass"],
+"names": [],
+"file": "b-layout__enter-form.css"
+}

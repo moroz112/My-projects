@@ -1,0 +1,287 @@
+.b-form__create-task {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+  background: #BDD2E2;
+  top: 40px; }
+
+/*# sourceMappingURL=b-form__create-task.css.map */
+
+.b-form__create-task_submit {
+  float: right;
+  margin: 0 10% 10px 0; }
+
+/*# sourceMappingURL=b-form__create-task_submit.css.map */
+
+.b-form__create-task_visible {
+  visibility: visible;
+  opacity: 1; }
+
+/*# sourceMappingURL=b-form__create-task_visible.css.map */
+
+.b-form__input {
+  display: block;
+  width: 80%;
+  margin: 5px auto; }
+
+/*# sourceMappingURL=b-form__input.css.map */
+
+.b-layout {
+  background: #fcfcfc; }
+
+/*# sourceMappingURL=b-layout.css.map */
+
+.b-layout__main-menu-item {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  background: #00A1F1; }
+  .b-layout__main-menu-item span {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none; }
+  .b-layout__main-menu-item:hover {
+    background: #0099E5;
+    cursor: pointer; }
+
+/*# sourceMappingURL=b-layout__main-menu-item.css.map */
+
+.b-layout__main-menu-item_create {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  .b-layout__main-menu-item_create a {
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=b-layout__main-menu-item_create.css.map */
+
+
+
+/*# sourceMappingURL=b-layout__main-menu.css.map */
+
+.b-layout__main-menu_list {
+  position: relative;
+  width: 100%; }
+  .b-layout__main-menu_list:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both; }
+
+/*# sourceMappingURL=b-layout__main-menu_list.css.map */
+
+
+
+/*# sourceMappingURL=b-layout__task_or_user-list.css.map */
+
+.b-layout__wrapper {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+  background: #FFFFFF; }
+
+/*# sourceMappingURL=b-layout__wrapper.css.map */
+
+
+
+/*# sourceMappingURL=b-task_or_user-list.css.map */
+
+.b-task_or_user-list__item {
+  margin-top: 5px;
+  margin-left: 15px; }
+
+/*# sourceMappingURL=b-task_or_user-list__item.css.map */
+
+.b-layout__enter-form {
+  width: 100%; }
+
+/*# sourceMappingURL=b-layout__enter-form.css.map */
+
+.b-layout__enter-input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 5px 0px;
+  font-size: 25px; }
+
+/*# sourceMappingURL=b-layout__enter-input.css.map */
+
+.b-layout__enter {
+  width: 500px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=b-layout__enter.css.map */
+
+.b-layout__registration-form {
+  width: 100%; }
+
+/*# sourceMappingURL=b-layout__registration-form.css.map */
+
+.b-layout__registration-input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=b-layout__registration-input.css.map */
+
+.b-layout__registration {
+  width: 500px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=b-layout__registration.css.map */
+
+/* Ion.Tabs
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Base */
+
+.ionTabs {
+    position: relative;
+}
+    .ionTabs__head {
+        position: relative; display: block;
+        list-style-type: none;
+        margin: 0; padding: 0;
+        z-index: 1;
+    }
+    .ionTabs__head:before, .ionTabs__head:after {content: ""; display: table;}
+    .ionTabs__head:after {clear: both;}
+    .ionTabs__head {zoom: 1;}
+
+        .ionTabs__tab {
+            position: relative;
+            display: block; float: left;
+            list-style-type: none;
+            background: none;
+            margin: 0; padding: 0;
+            cursor: pointer;
+        }
+            .ionTabs__tab.ionTabs__tab_state_active {
+                cursor: default;
+            }
+
+    .ionTabs__body {
+        position: relative;
+        z-index: 2;
+    }
+
+    .ionTabs__item {
+        position: relative;
+        display: none;
+    }
+        .ionTabs__item.ionTabs__item_state_active {
+            display: block;
+        }
+
+    .ionTabs__preloader {
+        position: relative;
+    }
+/* Ion.Tabs: Bordered Skin
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Skin details */
+
+.ionTabs {
+    margin: 0 0 30px;
+}
+    .ionTabs__head {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .ionTabs__tab {
+        font-size: 11px; line-height: 13px;
+        background: #ededed;
+        border: 1px solid #cecece;
+        border-bottom: none;
+        padding: 7px 25px 7px;
+        margin-right: 10px;
+        color: #484848;
+        margin-top: 10px;
+        text-align: center;
+        min-width: 50px;
+    }
+        .ionTabs__tab:hover {
+            background: #e5e5e5;
+        }
+        .ionTabs__tab.ionTabs__tab_state_active {
+            top: 1px;
+            margin-top: 0;
+            padding: 12px 25px 11px;
+            background: #fff;
+            color: #d71410;
+            border-top-color: #d71410;
+            border-bottom: 1px solid #fff;
+        }
+
+    .ionTabs__body {
+        background: #fff;
+        border: 1px solid #cecece;
+        border-top: none;
+    }
+
+    .ionTabs__item {
+        padding: 15px 26px;
+    }
+
+    .ionTabs__preloader {
+        height: 50px;
+        background: url(../img/preloader-flat.gif) no-repeat 25px 50%;
+    }
+/* Ion.Tabs: Flat Skin
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Skin details */
+
+.ionTabs {
+    margin: 0 0 30px;
+}
+    .ionTabs__head {
+
+    }
+
+    .ionTabs__tab {
+        top: 3px;
+        font-size: 14px; line-height: 16px;
+        font-weight: bold;
+        background: #fff;
+        padding: 20px 26px 22px
+    }
+        .ionTabs__tab:hover {
+            background: #e5e5e5;
+        }
+        .ionTabs__tab.ionTabs__tab_state_active {
+            top: 0;
+            background: #efefef;
+            box-shadow: -3px 3px 0 rgba(0,0,0,0.15);
+        }
+
+    .ionTabs__body {
+        background: #efefef;
+
+        box-shadow: -3px 3px 0 rgba(0,0,0,0.15);
+    }
+
+    .ionTabs__item {
+        padding: 15px 26px;
+    }
+
+    .ionTabs__preloader {
+        height: 50px;
+        background: url(../img/preloader-flat.gif) no-repeat 25px 50%;
+    }

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,4BAA4B;EAC1B,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,CAAC",
+"sources": ["../../sass/main-page/b-form__create-task_visible.sass"],
+"names": [],
+"file": "b-form__create-task_visible.css"
+}

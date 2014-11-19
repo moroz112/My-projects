@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAClB,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,OAAO;EACnB,GAAG,EAAE,IAAI",
+"sources": ["../../sass/main-page/b-form__create-task.sass"],
+"names": [],
+"file": "b-form__create-task.css"
+}

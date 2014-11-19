@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,sBAAsB;EACpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,OAAO;EACf,SAAS,EAAE,IAAI",
+"sources": ["../../sass/registration/b-layout__enter-input.sass"],
+"names": [],
+"file": "b-layout__enter-input.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gCAAgC;EAC9B,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,MAAM;EAElB,kCAAC;IACC,KAAK,EAAE,OAAO",
+"sources": ["../../sass/main-page/b-layout__main-menu-item_create.sass"],
+"names": [],
+"file": "b-layout__main-menu-item_create.css"
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,uBAAuB;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM",
+"sources": ["../../sass/registration/b-layout__registration.sass"],
+"names": [],
+"file": "b-layout__registration.css"
+}

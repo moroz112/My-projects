@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="src/vendor/jquery-1.10.2.min.js"></script>
+    <script src="src/ion-tabs/ion.tabs.min.js"></script>
+    <script src="src/registr.js"></script>
+    <link rel="stylesheet" href="src/dist/all.css">
+</head>
+<body>
+    <div class="b-layout__wrapper">
+    <div class="ionTabs" id="tabs_1" data-name="Tabs_Group_name">
+        <ul class="ionTabs__head">
+            <li class="ionTabs__tab" data-target="Tab_1_name">Имя вкладки 1</li>
+            <li class="ionTabs__tab" data-target="Tab_2_name">Имя вкладки 2</li>
+        </ul>
+        <div class="ionTabs__body">
+            <div class="ionTabs__item" data-name="Tab_1_name">
+                <div class="b-layout__registration">
+                    <form class="b-layout__registration-form" name="registration-form" method="post" action="registration.php">
+                        <span>Name</span> <input name="username-registr" class="b-layout__registration-input">
+                        <span>Email</span><input name="email-registr"  value="" class="b-layout__registration-input">
+                        <span>Password</span><input name="password-registr" class="b-layout__registration-input">
+                        <input type="submit" value="Registration">
+                    </form>
+                </div>
+            </div>
+            <div class="ionTabs__item" data-name="Tab_2_name">
+                <div class="b-layout__enter">
+                    <form class="b-layout__enter-form" name="enter-form" method="post" action="registration.php">
+                        <span>Name</span> <input name="username" class="b-layout__enter-input">
+
+                        <span>Password</span><input name="password" class="b-layout__enter-input">
+                        <input type="submit" value="Enter">
+                    </form>
+                </div>
+            </div>
+            <div class="ionTabs__preloader"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

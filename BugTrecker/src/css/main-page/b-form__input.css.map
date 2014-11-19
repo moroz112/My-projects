@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACZ,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ",
+"sources": ["../../sass/main-page/b-form__input.sass"],
+"names": [],
+"file": "b-form__input.css"
+}
