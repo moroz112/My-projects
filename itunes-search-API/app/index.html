@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/app.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/angular-resource.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+<body ng-controller="PhoneListCtrl">
+<div class="b-layout">
+    <div id="b-layout__search" class="default">
+
+        <div id="b-layout__input-wrapper">
+            <input ng-model="query"  class="b-layout__input" placeholder={{queryPlace}}>
+            <div class="b-layout__query">{{query | queryName}}</div>
+        </div>
+        <div class="b-layout__select-wrapper">
+            <select data-ng-model="orderprop" class="b-layout__select">
+                <option value="artistName">name</option>
+                <option value="collectionPrice">price</option>
+            </select>
+        </div>
+    </div>
+    <div class="b-layout__results">
+        <ul class="b-layout__results-list">
+            <li class="b-layout__result-item" ng-repeat="result in results.results | filter:query  | orderBy:orderprop">
+                <h6>{{result.artistName | queryName}}</h6>
+
+                <a href="{{result.artistViewUrl}}">{{result.artistName}}</a>
+                <div class="b-layout__wrapper-image"><img ng-src="{{result.artworkUrl100}}"/></div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
